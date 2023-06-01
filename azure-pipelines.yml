@@ -20,7 +20,7 @@ stages:
       dotnetSdkVersion: '6.0.x'
 
     steps:
-    - checkout: git://Skye1349/mslearn-tailspin-spacegame-web-azure-functions@main
+    - checkout: git://skye1349/mslearn-tailspin-spacegame-web-azure-functions@main
     - task: UseDotNet@2
       displayName: 'Use .NET SDK $(dotnetSdkVersion)'
       inputs:
