@@ -21,8 +21,6 @@ stages:
 
     steps:
 
-    - checkout: git://skye1349/mslearn-tailspin-spacegame-web-azure-functions>@main
-
     - task: UseDotNet@2
       displayName: 'Use .NET SDK $(dotnetSdkVersion)'
       inputs:
